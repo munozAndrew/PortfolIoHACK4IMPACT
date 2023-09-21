@@ -40,6 +40,22 @@ h1 {
     display: flex;
     justify-content: center;
 }
+.about-image img{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.project-portfolio img{
+    border-radius: 15px;
+    height: 300px;
+    width: 300px;
+}
+
+.project{
+    display: flex;
+    justify-content: center;
+}
 
 nav ul li {
     display: inline-block;
@@ -62,21 +78,73 @@ nav ul li a:hover{
     background-color: #e9ecef;
 }
 
+
+
 .footer-cont{
     background-color: #212529;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.footer-cont {
+    color: #e9ecef;
+}
+
+h2{
+    text-align: center;
+}
+
+.contact-form{
 
 }
 
+.project-portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.Home img {
+    max-width: 100%;
+}
 
+.project-details{
+    text-align: center;
+    color: #ced4da;
 
+}
+.port{
+    color: #ced4da;
+}
 
-
-
-footer {
+.project-details a{
+    text-decoration: none;
     color: #e9ecef;
+    border-radius: 13px;
+    padding: 10px;
+    background-color: #212529;
+}
+
+.a-title{
+    color: #ced4da;
+}
+
+.about-text{
+    color: #e9ecef;
+}
+
+.section{
+    color: #ced4da;
+    text-align: center;
+}
+
+.resume-title{
+    color: #e9ecef;
+}
+
+.down{
+    display: block;
+    margin: 0 auto;
 
 }
