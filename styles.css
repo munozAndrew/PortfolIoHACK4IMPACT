@@ -148,3 +148,33 @@ h2{
     margin: 0 auto;
 
 }
+
+.contact-title{
+    color: #e9ecef;
+}
+#contact-form{
+    width: 300px;
+    margin: 0 auto;
+    color: #ced4da;
+}
+
+.input-group, .submit-group{
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    border-radius: 20px;
+    padding: 10px;
+    transition: transform 0.3s ease-in;
+}
+
+input[type="submit"]:hover{
+    transform: scale(1.05);
+    color: aquamarine;
+}
+
